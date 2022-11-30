@@ -26,9 +26,9 @@ func a(client *openfeature.Client) {
 	}
 
 	if resolve == cts.FlagA.DefVar {
-		fmt.Println("Default FF resolved : " + cts.FlagA.DefVar)
+		fmt.Println("Default FF resolved: " + cts.FlagA.DefVar)
 	} else {
-		fmt.Println("Non default FF resolve: " + resolve)
+		fmt.Println("Non default FF resolved: " + resolve)
 	}
 }
 
@@ -40,8 +40,8 @@ func b(client *openfeature.Client) {
 	}
 
 	if !resolve {
-		fmt.Printf("Default FF resolve : %t", resolve)
+		fmt.Printf("Default FF resolved : %t", resolve)
 	} else {
-		fmt.Printf("Non default FF resolve : %t", resolve)
+		fmt.Printf("Non default FF resolved : %t", resolve)
 	}
 }

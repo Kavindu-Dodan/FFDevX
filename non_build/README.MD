@@ -1,0 +1,1 @@
+This folder contains non-build material aka things that won't go into final source.
